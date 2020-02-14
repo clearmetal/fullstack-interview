@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend
+    command: python app.py
+    volumes:
+     - ./backend:/app
+    ports:
+      - "5000:80"
+  frontend:
+    build: ./frontend
+    command: npm start
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:80"
