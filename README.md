@@ -4,9 +4,9 @@
 
 Start the app with `docker-compose up`. Go to http://localhost:3000
 
-## Project
+## Goal
 
-* Add the ability to:
-  - Add comments
-  - Delete comments
-  - Edit comments
+Add the ability to:
+* Add comments
+* Delete comments
+* Edit comments
